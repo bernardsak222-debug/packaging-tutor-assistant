@@ -7,7 +7,7 @@ A small language model that coaches packaging students by asking questions. It i
 - Method: LoRA, rank 8, 1,304,576 trainable parameters, float32, sequence length 768.
 - Training: AdamW (learning rate 1e-4, weight decay 0.01), batch size 1, 3 epochs, on a free Colab T4 GPU. Training took 77.3 minutes.
 - Data: 875 training pairs and 184 validation pairs. See `DATA_CARD.md`.
-- Weights: `packaging_tutor_v3.lora.h5` (about 5 MB). Link: [ADD LINK HERE]
+- Weights: `packaging_tutor_v3.lora.h5` (about 5 MB). Link: [https://drive.google.com/drive/folders/1TCqqplRUnLx6wliSU7jNkiwJqAqaor4R?usp=sharing]
 - To use it, load the base model, then call `model.backbone.load_lora_weights(...)` on the file.
 
 ## Intended use
